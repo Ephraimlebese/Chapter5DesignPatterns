@@ -18,4 +18,6 @@ public class ProductStore extends Product implements ProductAdapter{
     private Supplier sellProduct(Supplier supplier){
         return new Supplier(supplier.getSupplierName());
     }
+
+
 }
